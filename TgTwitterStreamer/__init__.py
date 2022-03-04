@@ -42,12 +42,9 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🧸 Sumber :
-<b><a href='{SENDER_PROFILE}'>{SENDER}</a></b>
-📝 Caption:
 {TWEET_TEXT}
 
-<b><a href="{_REPO_LINK}">Auto post</a></b>
+SPONSORED BY <b><a href="{_REPO_LINK}">Auto post</a></b>
 """
 
 
