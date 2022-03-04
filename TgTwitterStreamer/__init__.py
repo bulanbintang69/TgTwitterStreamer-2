@@ -42,8 +42,6 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-{TWEET_TEXT}
-
 𝘚𝘗𝘖𝘕𝘚𝘖𝘙𝘌𝘋 𝘉𝘠 <b><a href="{_REPO_LINK}">Auto post</a></b>
 """
 
