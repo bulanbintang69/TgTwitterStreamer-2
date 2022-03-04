@@ -58,8 +58,8 @@ class Var:
     MUST_EXCLUDE = config("MUST_EXCLUDE", default=None)
 
     # Automations
-    AUTO_LIKE = config("AUTO_LIKE", True)
-    AUTO_RETWEET = config("AUTO_RETWEET", True)
+    AUTO_LIKE = config("AUTO_LIKE", default=False, cast=bool)
+    AUTO_RETWEET = config("AUTO_RETWEET", default=False, cast=bool)
     AUTO_PIN = config("AUTO_PIN", default=False, cast=bool)
 
     _filter_level = None
