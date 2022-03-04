@@ -10,7 +10,7 @@ from telethon.tl.types import User
 from tweepy import API, OAuthHandler
 from tweepy.errors import Unauthorized
 
-REPO_LINK = "https://github.com/New-dev0/TgTwitterStreamer"
+REPO_LINK = "https://t.me/Anime_Bahasa_Indonesia"
 
 LOGGER = logging.getLogger("TgTwitterStreamer")
 LOGGER.setLevel(level=logging.INFO)
@@ -42,11 +42,12 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🎊 <b><a href='{SENDER_PROFILE}'>{SENDER}</a></b> :
+🧸 Sumber :
+<b><a href='{SENDER_PROFILE}'>{SENDER}</a></b>
+📝 Caption:
+{TWEET_TEXT}
 
-🍿 {TWEET_TEXT}
-
-• Powered by <b><a href="{_REPO_LINK}">TgTwitterStreamer</a></b>
+<b><a href="{_REPO_LINK}">Auto post</a></b>
 """
 
 
