@@ -33,7 +33,7 @@ class Var:
     # Custom Text format to be used, while sending Tweets.
     CUSTOM_TEXT = config("CUSTOM_TEXT", None)
     # Text to Display on Button, Attached to Message Posted on Telegram.
-    BUTTON_TITLE = config("BUTTON_TITLE", "Lihat Postingan Asli🔒")
+    BUTTON_TITLE = config("BUTTON_TITLE", "🔒Original Post🔒")
     # Set DISABLE_BUTTON to True, to disable that Button.
     CUSTOM_BUTTON = config("CUSTOM_BUTTON", default=None)
     DISABLE_BUTTON = config("DISABLE_BUTTON", default=False, cast=bool)
